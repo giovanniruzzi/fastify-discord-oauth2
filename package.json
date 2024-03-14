@@ -1,0 +1,22 @@
+{
+  "name": "fastify-oauth2-discord-example",
+  "version": "1.0.0",
+  "description": "This is an example of how using fastify with discord oauth2",
+  "scripts": {
+    "start": "ts-node-dev --project ./tsconfig.json ./src/server.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fastify/cookie": "^9.3.1",
+    "@fastify/oauth2": "^7.8.0",
+    "dotenv": "^16.4.5",
+    "fastify": "^4.26.2"
+  },
+  "devDependencies": {
+    "@tsconfig/node18": "^18.2.2",
+    "@types/node": "^20.11.26",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.4.2"
+  }
+}
